@@ -11,7 +11,7 @@ class Config:
     """Manages application configuration and API keys."""
     
     # Screenshot directory path
-    SCREENSHOT_DIR = r"C:\Users\janpa\Pictures\Screenshots"
+    SCREENSHOT_DIR = r"C:\Users\YOUR_PROFILE_NAME\Pictures\Screenshots"
     
     # API Keys (loaded from environment variables)
     GEMINI_API_KEY: Optional[str] = os.getenv("GEMINI_API_KEY")
