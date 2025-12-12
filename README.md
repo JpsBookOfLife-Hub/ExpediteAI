@@ -6,7 +6,7 @@ A Python desktop application that automatically processes screenshots, uses AI v
 
 ```bash
 # Clone the repository
-git clone https://github.com/JpsBookOfLife/ExpediteAI.git
+git clone https://github.com/JpsBookOfLife-Hub/ExpediteAI.git
 cd ExpediteAI
 
 # Install dependencies
@@ -190,7 +190,7 @@ python main.py -p gemini
 3. The application will start monitoring the screenshots directory automatically.
 
 4. When you see a question on your screen:
-   - Take a screenshot using **Windows Key + Print Screen** (saves to `C:\Users\janpa\Pictures\Screenshots`)
+   - Take a screenshot using **Windows Key + Print Screen** (saves to `C:\Users\YOUR_PROFILE_NAME\Pictures\Screenshots`)
    - The application will automatically detect the new screenshot
    - The answer will appear in a modal in the bottom-left corner
    - The modal will automatically disappear after 3 seconds
@@ -215,7 +215,7 @@ You can customize the following settings via environment variables:
 ## Troubleshooting
 
 **Screenshots not being detected:**
-- Verify that screenshots are being saved to `C:\Users\janpa\Pictures\Screenshots`
+- Verify that screenshots are being saved to `C:\Users\YOUR_PROFILE_NAME\Pictures\Screenshots`
 - Check that the directory exists
 - Make sure you're using Windows Key + Print Screen (not just Print Screen)
 - The application monitors the folder continuously - wait a moment after taking a screenshot
