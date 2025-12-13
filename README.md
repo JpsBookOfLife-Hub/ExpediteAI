@@ -2,6 +2,10 @@
 
 A Python desktop application that automatically processes screenshots, uses AI vision APIs to extract and answer questions, and displays results in a minimalistic dark-themed modal overlay.
 
+
+https://github.com/user-attachments/assets/2d7dfc21-9129-4870-b711-1bf67bfe3177
+
+
 ## Quick Start
 
 ```bash
